@@ -25,3 +25,9 @@ python convert_wubi.py
 直接使用：
 导入shouxin_wubi.txt 为辅助码即可
 
+
+
+效果如下：
+
+![iShot_2023-12-12_18.53.55](assets/iShot_2023-12-12_18.53.55.gif)
+
