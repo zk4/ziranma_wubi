@@ -27,7 +27,7 @@
 
 
 ## 直接使用
-手心输入法导入shouxin_wubi.txt 为辅助码即可使用
+手心输入法导入shouxin_wubi_s.txt 为辅助码即可使用
 
 
 注意：**手心输入法风险**
@@ -41,4 +41,5 @@
 ```
 python convert_wubi.py
 ```
+user_defined.txt 为自定义辅助码，有需要自己加吧
 
