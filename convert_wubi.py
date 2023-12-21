@@ -53,6 +53,7 @@ with open("./wb_single_table.txt", encoding='utf-8') as f:
                 words[target] = tokens[0].strip()
             else:
                 print(target)
+
 with open("./shouxin_wubi_s.txt", "w", encoding="utf-16") as f:
     for k, v in words.items():
         f.write(f"{k}={v[:1]}\n")
@@ -63,3 +64,4 @@ with open("./shouxin_wubi_s.txt", "w", encoding="utf-16") as f:
 
         # 最好不要使用两个码判断，跟双拼冲突比较大，一个码足够了。
         # f.write(f"{k}={v[:2]}\n")
+
